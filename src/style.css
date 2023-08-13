@@ -1,0 +1,46 @@
+html{
+    font-size: 65,2%;
+}
+
+body{
+    font-family: var(--fonte-primaria);
+    background-color:var(--cor-extra-escura);
+    max-width: 1150px;
+    margin: 0 auto;
+    
+}
+
+.header{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a,
+p,
+h1, 
+h2{
+    color: var(--cor-suave);
+}
+
+.header .menu ul{
+    display: flex;
+    gap: 20px;
+}
+
+.home{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.home .container h1{
+    font-size: 40px;
+}
+
+.home img{
+    max-width: 450px;
+}

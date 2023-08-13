@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+
+:root {
+    --cor-extra-escura: #13293d;
+    --cor-escura: #006494;
+    --cor-media: #247ba0;
+    --cor-clara: #1b98e0;
+    --cor-suave: #e8f1f2;
+    --fonte-primaria: 'poppins', sans-serif;
+    --fonte-secundaria: 'raleway', sans-serif;
+    --fonte-gigante: 4.5rem;
+    --fonte-extra-grande: 3rem;
+    --fonte-grande: 2.4rem;
+    --fonte-normal: 1.6rem;
+}
