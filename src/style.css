@@ -1,3 +1,7 @@
+*{
+    color: aliceblue;
+}
+
 html{
     font-size: 65,2%;
 }
@@ -17,11 +21,13 @@ body{
     align-items: center;
 }
 
-.header a,
-p,
-h1, 
-h2{
-    color: var(--cor-suave);
+.header a{
+    transition: 0.3s ease-in-out;
+}
+
+.header a:hover,
+.redes-sociais a i:hover{
+    color: var(--cor-clara);
 }
 
 .header .menu ul{
@@ -37,10 +43,39 @@ h2{
     gap: 100px;
 }
 
+.home .container p{
+    font-size: 2rem;
+}
+
 .home .container h1{
-    font-size: 40px;
+    font-size: 3rem;
+}
+
+.home .container h2{
+    font-size: 2.2rem;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais a i{
+    font-size: 1.8rem;
+    margin: 1.5rem 1.5rem 0 0;
+    transition: 0.3s ease-in-out;
 }
 
 .home img{
-    max-width: 450px;
+    max-width: 300px;
+}
+
+.sobre-mim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mim img{
+    max-width: 400px;
 }
