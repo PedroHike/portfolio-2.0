@@ -5,57 +5,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro Henrique Amaral Carvalho - Desenvolvedor Frontend</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./src/reset.css">
-    <link rel="stylesheet" href="./src/variaveis.css">
-    <link rel="stylesheet" href="./src/style.css">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variaveis.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/menu.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 </head>
 <body>
     <header class="header">
-        <div class="logo"><h1><a href="#">PH</a></h1></div>
+        <div class="logo">
+            <h1><a href="#">PH</a></h1>
+        </div>
         <nav class="menu">
+            <input type="checkbox" id="menu-hamburguer">
+            <label for="menu-hamburguer">
+                <div class="menu-hamburguer"></div>
+            </label>
             <ul>
-                <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Meus projetos</a></li>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#meus-projetos">Meus projetos</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="home">
-        <div class="container">
-            <p>Olá 👋,</p>
-            <h1>Sou o Pedro Henrique Amaral</h1>
-            <h2>Desenvolvedor Frontend</h2>
-            <div class="redes-sociais">
-                <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-                <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
-                <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+    <main class="main">
+        <section class="home">
+            <div class="container">
+                <p>Olá 👋,</p>
+                <h1>Sou o Pedro Henrique Amaral</h1>
+                <h2>Desenvolvedor Frontend</h2>
+                <div class="redes-sociais">
+                    <a href="https://www.linkedin.com/in/pedro-henrique-amaral-carvalho-6023a427b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://api.whatsapp.com/send/?phone=5527981324950&text&type=phone_number&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://github.com/PedroHike" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/pedrohike/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
             </div>
-        </div>
-        <img src="./src/images/Website designer-amico (2).png" alt="">
-    </section>
-    <section class="sobre-mim">
-        <div class="container">
-        <h2 class="titulo-sobre">
-            Sobre mim
-        </h2>
-        <img src="src/images/Developer activity-bro.png" alt="">
-    </div>
-        <div class="informacoes-sobre-mim">
-            <p>
-            <strong>Olá! Me chamo Pedro Henrique e sou um desenvolvedor frontend em formação!</strong> Gosto  MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
-            </p>
-            <p>
-                Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁</p>
-            <p>
-                Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💜
-            </p>
-            <div class="botoes">
-            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+            <img src="./src/images/Website designer-amico (2).png" alt="">
+        </section>
+        <section class="sobre-mim" id="sobre-mim">
+            <h2 class="titulo-sobre">
+                Sobre mim
+            </h2>
+            <div class="container"> 
+                <img src="src/images/Developer activity-bro.png" alt="">
+                <div class="informacoes-sobre-mim">
+                    <p>
+                    <strong>Olá! Me chamo Pedro Henrique e sou um desenvolvedor frontend em formação!</strong> 
+                        <p>Gosto  MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+                        </p>
+                    </p>
+                    <p>
+                    Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁</p>
+                    <div class="botao">
+                    <a target="_blank" href="src/arquivos/Currículo Pedro Henrique.pdf" class="botao outer-shadow">Veja meu CV</a>
+                </div>
             </div>
+        </section>
+        <section class="habilidades" id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="container-habilidades">
+                
+                
+                <div class="html informacoes">
+                    <div class="logo">
+                        <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque dignissimos possimus!</p>
+                </div>
+                
+                
+                <div class="css informacoes">
+                    <div class="logo">
+                        <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita dignissimos possimus!</p>
+                </div>
+                
+                <div class="javascript informacoes">
+                    <div class="logo">
+                        <i class="devicon devicon-javascript-plain" id="javascript"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur exreiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque dignissimos possimus!</p>
+                </div>
+        
+                <div class="github informacoes">
+                    <div class="logo">
+                        <i class="devicon devicon-github-original" id="github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque dignissimos possimus!</p>
+                </div>  
+            
+        
+                <div class="git informacoes">
+                    <div class="logo">
+                        <i class="devicon devicon-git-plain" id="git"></i>
+                    </div>
+                    <h3>Git</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque dignissimos possimus!</p>
+                </div>
+            </div>
+    
+        </section>
+        <section class="projetos" id="meus-projetos">
+            <h2>Meus projetos</h2>
+            <div class="container-projetos">
+                <a href="https://github.com">
+                    <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+                    <h3>Projeto 1</h3>
+                    <div class="informacoes-projeto">          
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>     
+                </a>    
+        
+                <a href="https://github.com">
+                    <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+                    <h3>Projeto 2</h3>
+                    <div class="informacoes-projeto">          
+                        <p>Lorem ipsum</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>      
+                </a>          
+                
+                <a href="https://github.com">
+                    <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+                    <h3>Projeto 3</h3>
+                    <div class="informacoes-projeto">
+                        <p>Lorem ipsum</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>   
+            
+                <a href="https://github.com">
+                    <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+                    <h3>Projeto 4</h3>
+                    <div class="informacoes-projeto">
+                        <p>Lorem ipsum</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2>Me envie uma mensagem!</h2>
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/pedro-henrique-amaral-carvalho-6023a427b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=5527981324950&text&type=phone_number&app_absent=0" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/PedroHike" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/pedrohike/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
-    </section>
+    </footer>
 </body>
 </html>

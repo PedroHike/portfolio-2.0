@@ -1,0 +1,199 @@
+*{
+    color: aliceblue;
+}
+
+html{
+    font-size: 65,2%;
+}
+
+body{
+    font-family: var(--fonte-primaria);
+    background-color:var(--cor-extra-escura);    
+}
+
+.header{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo a{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--cor-suave);
+    border-radius: 50%;
+}
+
+.header .logo a:hover{
+    border: 2px solid var(--cor-clara);
+}
+
+.header a{
+    transition: 0.3s ease-in-out;
+}
+
+.header a:hover,
+.redes-sociais a i:hover{
+    color: var(--cor-clara);
+    transform: scale(1.2);
+}
+
+.header .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .menu ul{
+    display: flex;
+    gap: 30px;
+}
+
+.main{
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.home{
+    margin-top: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home .container p{
+    font-size: var(--fonte-grande);
+}
+
+.home .container h1{
+    font-size: var(--fonte-extra-grande);
+}
+
+.home .container h2{
+    font-size: var(--fonte-grande);
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.redes-sociais a i{
+    font-size: var(--fonte-grande);
+    margin-top: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.home img{
+    max-width: 300px;
+    width: 50%;
+}
+
+.sobre-mim{
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.sobre-mim h2,
+.habilidades h2,
+.projetos h2{
+    font-size: var(--fonte-extra-grande);
+}
+
+.sobre-mim .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mim img{
+    max-width: 50%;
+}
+
+.sobre-mim .informacoes-sobre-mim{
+    text-align: left;
+    max-width: 50%;
+}
+
+.sobre-mim .informacoes-sobre-mim p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 200;
+}
+
+.sobre-mim .informacoes-sobre-mim .botao{
+    margin-top: 30px;
+}
+
+.sobre-mim .informacoes-sobre-mim .botao a{
+    background-color: var(--cor-clara);
+    padding: 10px 25px;
+    border-radius: 25px;
+    box-shadow: 0 2px 10px #000;
+    transition: 0.3s ease-in-out;
+}
+
+.sobre-mim .informacoes-sobre-mim .botao a:hover{
+    box-shadow: 0 2px 5px var(--cor-clara);
+    background-color: var(--cor-suave);
+    color: var(--cor-extra-escura);
+}
+
+.habilidades{
+    text-align: center;
+    margin: 70px 0;
+}
+
+.habilidades .container-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+.habilidades .container-habilidades .informacoes{
+    max-width: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.habilidades .container-habilidades .informacoes i{
+    font-size: var(--fonte-gigante);
+}
+
+.habilidades .container-habilidades .informacoes h3{
+    font-size: var(--fonte-grande);
+    margin: 20px 0;
+}
+
+.projetos{
+    text-align: center;
+}
+
+.projetos .container-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+.projetos .container-projetos a{
+    max-width: 250px;
+    margin: 15px;
+}
+
+.projetos .container-projetos img{
+    width: 100%;
+}
+
+.footer{
+    background-color: var(--cor-escura);
+    padding: 50px;
+    text-align: center;
+}
