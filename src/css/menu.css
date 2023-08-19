@@ -53,11 +53,33 @@
 }
 
 @media(max-width:720px){
+    .header .menu{
+        position: relative;
+    }
+    
+    .header .menu ul{
+        background-color: var(--cor-escura);
+        border-radius: 10px;
+        display: none;
+        position: absolute;
+        bottom: -135px;
+        right: 10px;
+        width: 145px;
+        box-shadow: 0 0 15px #000;
+        text-align: center;
+    }
+
+    .header .menu ul li{
+        margin: 15px;
+    }
+
     .header .menu label{
         display: flex;
     }
 
-    .header .menu ul{
-        display: none;
+    .header .menu input:checked ~ ul{
+        display: block;
     }
+
+
 }
