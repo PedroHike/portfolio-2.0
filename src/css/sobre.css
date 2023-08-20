@@ -23,7 +23,7 @@
 
 .sobre-mim .informacoes-sobre-mim{
     text-align: left;
-    width: 600px;
+    max-width: 600px;
     margin-left: 50px;
 }
 
