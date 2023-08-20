@@ -1,9 +1,10 @@
 .main .home{
     background-color: var(--bgcolor-secundaria);
-    height: 85vh;
+    height: 80vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 30px;
 }
 
 .home .container p,
