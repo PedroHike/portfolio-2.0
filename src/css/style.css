@@ -11,88 +11,10 @@ body{
     background-color:var(--cor-extra-escura);    
 }
 
-.header{
-    padding: 30px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header .logo a{
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid var(--cor-suave);
-    border-radius: 50%;
-}
-
-.header .logo a:hover{
-    border: 2px solid var(--cor-clara);
-}
-
-.header a{
-    transition: 0.3s ease-in-out;
-}
-
-.header a:hover,
-.redes-sociais a i:hover{
-    color: var(--cor-clara);
-    transform: scale(1.2);
-}
-
-.header .menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header .menu ul{
-    display: flex;
-    gap: 30px;
-}
-
 .main{
     max-width: 1200px;
     padding: 0 30px;
     margin: 0 auto;
-}
-
-.home{
-    margin-top: 50px 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.home .container p{
-    font-size: var(--fonte-grande);
-}
-
-.home .container h1{
-    font-size: var(--fonte-extra-grande);
-}
-
-.home .container h2{
-    font-size: var(--fonte-grande);
-}
-
-.redes-sociais{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.redes-sociais a i{
-    font-size: var(--fonte-grande);
-    margin-top: 30px;
-    transition: 0.3s ease-in-out;
-}
-
-.home img{
-    max-width: 300px;
-    width: 50%;
 }
 
 .sobre-mim{
@@ -118,7 +40,6 @@ body{
 
 .sobre-mim .informacoes-sobre-mim{
     text-align: left;
-    width: 50%;
 }
 
 .sobre-mim .informacoes-sobre-mim p{
