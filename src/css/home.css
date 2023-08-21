@@ -1,19 +1,22 @@
 .main .home{
     background-color: var(--bgcolor-secundaria);
-    height: 80vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 30px;
+    padding: 50px;
 }
 
 .home .container p,
 .home .container h2{
-    font-size: var(--fonte-grande);
+    font-size: var(--fonte-extra-grande);
+}
+
+.home .container h2{
+    font-weight: 600;
 }
 
 .home .container h1{
-    font-size: var(--fonte-extra-grande);
+    font-size: var(--fonte-gigante);
 }
 
 .home .container .redes-sociais{
@@ -22,7 +25,7 @@
 }
 
 .home .container .redes-sociais a i{
-    font-size: var(--fonte-grande);
+    font-size: var(--fonte-gigante);
     margin: 20px;
     transition: 0.3s ease-in-out;
 }

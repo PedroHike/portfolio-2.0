@@ -1,0 +1,34 @@
+.habilidades{
+    background-color: var(--bgcolor-quatro);
+    text-align: center;
+    padding: 50px 0 0;
+}
+
+.habilidades .container-habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.habilidades .container-habilidades .informacoes p{
+    color: var(--cor-escura);
+    font-size: var(--fonte-normal);
+}
+
+.habilidades .container-habilidades .informacoes{
+    margin: 10px;
+    width: 300px;
+    background-color: var(--cor-suave);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.habilidades .container-habilidades .informacoes i{
+    font-size: var(--fonte-gigante);
+}
+
+.habilidades .container-habilidades .informacoes h3{
+    font-size: var(--fonte-grande);
+    margin: 20px 0;
+}

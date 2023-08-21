@@ -3,27 +3,13 @@
 }
 
 html{
-    font-size: 65,2%;
+    font-size: 65.2%;
 }
 
 body{
-    font-family: var(--fonte-primaria);   
-    background-size: cover;
+    font-family: var(--fonte-primaria);
 }
 
-
-.habilidades{
-    background-color: var(--bgcolor-quatro);
-    text-align: center;
-    padding: 50px 0 0;
-}
-
-.habilidades .container-habilidades{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 50px;
-}
 
 .habilidades h2,
 .habilidades .container-habilidades .informacoes .logo i,
@@ -32,28 +18,6 @@ body{
 .projetos .container-projetos a h3,
 .projetos .container-projetos a .informacoes-projeto p{
     color: var(--cor-extra-escura);
-}
-
-.habilidades .container-habilidades .informacoes p{
-    color: var(--cor-escura);
-    font-size: 12px;
-}
-
-.habilidades .container-habilidades .informacoes{
-    margin: 10px;
-    max-width: 250px;
-    background-color: var(--cor-suave);
-    padding: 15px;
-    border-radius: 20px;
-}
-
-.habilidades .container-habilidades .informacoes i{
-    font-size: var(--fonte-extra-grande);
-}
-
-.habilidades .container-habilidades .informacoes h3{
-    font-size: var(--fonte-normal);
-    margin: 20px 0;
 }
 
 .projetos{

@@ -7,12 +7,12 @@
 .sobre-mim h2,
 .habilidades h2,
 .projetos h2{
-    font-size: var(--fonte-extra-grande);
+    font-size: var(--fonte-gigante);
 }
 
 .sobre-mim .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 30px;
 }
@@ -23,11 +23,11 @@
 
 .sobre-mim .informacoes-sobre-mim{
     text-align: left;
-    max-width: 500px;
+    max-width: 700px;
 }
 
 .sobre-mim .informacoes-sobre-mim p{
-    font-size: 1.2rem;
+    font-size: var(--fonte-grande);
     margin-bottom: 1rem;
     font-weight: 200;
 }
@@ -38,6 +38,7 @@
 
 .sobre-mim .informacoes-sobre-mim .botao a{
     background-color: var(--cor-clara);
+    font-size: var(--fonte-grande);
     padding: 10px 25px;
     border-radius: 25px;
     box-shadow: 0 2px 10px #000;
