@@ -32,3 +32,10 @@
     font-size: var(--fonte-grande);
     margin: 20px 0;
 }
+
+@media(max-width:1870px){
+    .habilidades .container-habilidades{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

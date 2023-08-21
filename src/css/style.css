@@ -29,16 +29,55 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .projetos .container-projetos a{
     max-width: 250px;
     margin: 15px;
+    position: relative;
 }
 
 .projetos .container-projetos img{
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
+.projetos .container-projetos a h3,
+.projetos .container-projetos a p{
+    position: absolute;
+}
+
+.projetos .container-projetos a h3{
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: var(--cor-escura);
+    color: var(--cor-suave);
+    font-size: var(--fonte-normal);
+}
+
+.projetos .container-projetos a .informacoes-projeto p{
+    top: 0;
+    padding: 20px;
+    font-size: var(--fonte-normal);
+    opacity: 0;
+}
+
+.projetos .container-projetos a p:nth-child(2){
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.projetos .container-projetos :hover,
+.projetos .container-projetos a .informacoes-projeto p:hover{
+    opacity: 0.8;
+}
+
 
 .footer{
     background-color: var(--cor-escura);
