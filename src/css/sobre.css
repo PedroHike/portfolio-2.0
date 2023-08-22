@@ -28,9 +28,9 @@
 }
 
 .sobre-mim .informacoes-sobre-mim p{
-    font-size: var(--fonte-grande);
+    font-size: var(--fonte-extra-grande);
     margin-bottom: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     text-shadow: 0 1px 2px var(--cor-extra-escura);
 }
 

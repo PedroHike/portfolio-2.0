@@ -1,5 +1,4 @@
 .projetos{
-    background: rgb(232,241,242);
     background: linear-gradient(180deg, rgba(232,241,242,1) 0%, rgba(255,255,255,1) 100%);
     text-align: center;
     padding: 50px;
@@ -23,7 +22,7 @@
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    box-shadow: 0 0 10px var(--cor-extra-escura);
+    box-shadow: 0 5px 10px var(--cor-extra-escura);
 }
 
 .projetos .container-projetos a h3,
@@ -33,7 +32,7 @@
 
 .projetos .container-projetos a h3{
     width: 100%;
-    bottom: 5px;
+    bottom: 0;
     margin: 0 auto;
     padding: 10px 0;
     background-color: var(--cor-escura);
@@ -63,5 +62,30 @@
     .projetos .container-projetos{
         max-width: 700px;
         margin: 50px auto 0;
+    }
+}
+
+@media(max-width:425px){
+    .projetos{
+        padding: 20px;
+    }
+
+    .projetos .container-projetos{
+        margin-top: 20px;
+    }
+
+    .projetos .container-projetos a{
+        width: 150px;
+    }
+
+    .projetos .container-projetos a h3{
+        font-size: var(--fonte-grande);
+    }
+}
+
+@media(max-width:375px){
+    .projetos .container-projetos a{
+        width: 140px;
+        margin: 10px;
     }
 }

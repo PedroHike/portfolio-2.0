@@ -59,3 +59,19 @@
     }
 
 }
+
+@media(max-width:375px){
+    .habilidades .container-habilidades{
+        gap: 20px 10px;
+    }
+
+    .habilidades .container-habilidades .informacoes{
+        margin: 0;
+        box-sizing: border-box;
+        width: 160px;
+    }
+
+    .habilidades .container-habilidades .informacoes p{
+        font-size: 2rem;
+    }
+}

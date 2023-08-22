@@ -58,23 +58,23 @@
     }
     
     .header .menu ul{
-        background-color: var(--cor-escura);
+        background-color: var(--cor-clara);
         border-radius: 10px;
         display: none;
         position: absolute;
-        bottom: -150px;
-        right: 10px;
-        width: 230px;
-        box-shadow: 0 0 15px #000;
+        bottom: -140px;
+        right: 0;
+        width: 180px;
+        box-shadow: 0 5px 15px var(--cor-extra-escura);
         text-align: center;
     }
 
     .header .menu ul li{
-        margin: 15px;
+        margin: 15px 0;
     }
 
     .header .menu ul li a{
-        font-size: var(--fonte-normal);
+        font-size: var(--fonte-extra-grande);
     }
 
     .header .menu label{
