@@ -1,5 +1,6 @@
 .habilidades{
-    background-color: var(--bgcolor-quatro);
+    background: rgb(187,225,250);
+background: linear-gradient(180deg, rgba(187,225,250,1) 0%, rgba(255,255,255,1) 100%);
     text-align: center;
     padding: 50px 0 0;
 }
@@ -22,6 +23,7 @@
     background-color: var(--cor-suave);
     padding: 15px;
     border-radius: 20px;
+    box-shadow: 0 0 5px var(--bgcolor-quatro);
 }
 
 .habilidades .container-habilidades .informacoes i{

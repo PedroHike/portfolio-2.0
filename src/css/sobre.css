@@ -1,5 +1,6 @@
 .sobre-mim{
-    background-color: var(--bgcolor-tres);
+    background: rgb(33,103,151);
+    background: linear-gradient(180deg, rgba(33,103,151,1) 0%, rgba(50,130,184,1) 50%, rgba(187,225,250,1) 100%);
     padding: 50px 0;
     text-align: center;
 }
@@ -40,7 +41,7 @@
     background-color: var(--cor-clara);
     font-size: var(--fonte-grande);
     padding: 10px 25px;
-    border-radius: 25px;
+    border-radius: 30px;
     box-shadow: 0 2px 10px #000;
     transition: 0.3s ease-in-out;
 }

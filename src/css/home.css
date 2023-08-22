@@ -1,5 +1,6 @@
 .main .home{
-    background-color: var(--bgcolor-secundaria);
+    background: rgb(15,76,117);
+    background: linear-gradient(180deg, rgba(15,76,117,1) 0%, rgba(33,103,151,1) 100%, rgba(50,130,184,1) 100%);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
