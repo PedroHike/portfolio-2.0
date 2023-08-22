@@ -30,7 +30,8 @@
 .sobre-mim .informacoes-sobre-mim p{
     font-size: 2rem;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 400;
+    text-shadow: 0 1px 2px var(--cor-extra-escura);
 }
 
 .sobre-mim .informacoes-sobre-mim .botao{
