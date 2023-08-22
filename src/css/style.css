@@ -1,5 +1,5 @@
 *{
-    color: aliceblue;
+    color: rgb(250, 250, 250);
 }
 
 html{
@@ -36,4 +36,10 @@ body{
 .footer .redes-sociais a i:hover{
 transform: scale(1.1);
 text-shadow:0 0 15px var(--cor-clara);
+}
+
+@media(max-width:425px){
+    html{
+        font-size: 35%;
+    }
 }

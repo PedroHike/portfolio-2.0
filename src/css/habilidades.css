@@ -1,29 +1,25 @@
 .habilidades{
-    background: rgb(187,225,250);
-background: linear-gradient(180deg, rgba(187,225,250,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(187,225,250,1) 0%, rgba(232,241,242,1) 100%);
     text-align: center;
-    padding: 50px 0 0;
-}
-
-.habilidades .container-habilidades{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     padding: 50px;
 }
 
-.habilidades .container-habilidades .informacoes p{
-    color: var(--cor-escura);
-    font-size: var(--fonte-normal);
+.habilidades .container-habilidades{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .habilidades .container-habilidades .informacoes{
     margin: 10px;
-    width: 300px;
     background-color: var(--cor-suave);
     padding: 15px;
     border-radius: 20px;
-    box-shadow: 0 0 5px var(--bgcolor-quatro);
+    box-shadow: 0 0 10px var(--bgcolor-tres);
+    width: 250px;
 }
 
 .habilidades .container-habilidades .informacoes i{
@@ -35,9 +31,31 @@ background: linear-gradient(180deg, rgba(187,225,250,1) 0%, rgba(255,255,255,1) 
     margin: 20px 0;
 }
 
-@media(max-width:1870px){
-    .habilidades .container-habilidades{
-        max-width: 1200px;
-        margin: 0 auto;
+.habilidades .container-habilidades .informacoes p{
+    color: var(--cor-escura);
+    font-size: var(--fonte-normal);
+}
+
+@media(max-width:425px){
+    .habilidades{
+        padding: 20px;
     }
+
+    .habilidades .container-habilidades .informacoes{
+        width: 140px;
+        margin: 5px;
+    }
+
+    .habilidades .container-habilidades .informacoes i{
+        font-size: 6rem;
+    }
+
+    .habilidades .container-habilidades .informacoes h3{
+        font-size: var(--fonte-extra-grande);
+    }
+
+    .habilidades .container-habilidades .informacoes p{
+        font-size: var(--fonte-grande);
+    }
+
 }

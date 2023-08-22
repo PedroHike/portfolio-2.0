@@ -1,6 +1,5 @@
 .sobre-mim{
-    background: rgb(33,103,151);
-    background: linear-gradient(180deg, rgba(33,103,151,1) 0%, rgba(50,130,184,1) 50%, rgba(187,225,250,1) 100%);
+    background: linear-gradient(180deg, rgba(50,130,184,1) 0%, rgba(187,225,250,1) 100%);
     padding: 50px 0;
     text-align: center;
 }
@@ -9,6 +8,7 @@
 .habilidades h2,
 .projetos h2{
     font-size: var(--fonte-gigante);
+    text-decoration: underline;
 }
 
 .sobre-mim .container{
@@ -28,9 +28,9 @@
 }
 
 .sobre-mim .informacoes-sobre-mim p{
-    font-size: 20px;
+    font-size: 2rem;
     margin-bottom: 1rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .sobre-mim .informacoes-sobre-mim .botao{
@@ -50,4 +50,28 @@
     box-shadow: 0 2px 5px var(--cor-clara);
     background-color: var(--cor-suave);
     color: var(--cor-extra-escura);
+}
+
+@media(max-width:425px){
+    .sobre-mim{
+        padding: 20px;
+    }
+
+    .sobre-mim .container{
+        padding: 0;
+        flex-direction: column;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .sobre-mim .container img{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .sobre-mim .informacoes-sobre-mim .botao{
+        display: flex;
+        justify-content: center;
+    }
+
 }

@@ -1,4 +1,6 @@
 .projetos{
+    background: rgb(232,241,242);
+    background: linear-gradient(180deg, rgba(232,241,242,1) 0%, rgba(255,255,255,1) 100%);
     text-align: center;
     padding: 50px;
 }
@@ -21,6 +23,7 @@
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    box-shadow: 0 0 10px var(--cor-extra-escura);
 }
 
 .projetos .container-projetos a h3,
@@ -30,9 +33,9 @@
 
 .projetos .container-projetos a h3{
     width: 100%;
-    bottom: 0;
+    bottom: 5px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: var(--cor-escura);
     color: var(--cor-suave);
     font-size: var(--fonte-normal);
@@ -54,4 +57,11 @@
 
 .projetos .container-projetos a .informacoes-projeto:hover{
     opacity: 1;
+}
+
+@media(max-width:1100px){
+    .projetos .container-projetos{
+        max-width: 700px;
+        margin: 50px auto 0;
+    }
 }
