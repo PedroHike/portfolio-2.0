@@ -20,8 +20,3 @@ body{
     color: var(--cor-extra-escura);
 }
 
-@media(max-width:425px){
-    html{
-        font-size: 35%;
-    }
-}

@@ -52,7 +52,7 @@
     margin: 0;
 }
 
-@media(max-width:720px){
+@media(max-width:768px){
     .header .menu{
         position: relative;
     }
@@ -62,9 +62,9 @@
         border-radius: 10px;
         display: none;
         position: absolute;
-        bottom: -140px;
+        bottom: -220px;
         right: 0;
-        width: 180px;
+        width: 270px;
         box-shadow: 0 5px 15px var(--cor-extra-escura);
         text-align: center;
     }
