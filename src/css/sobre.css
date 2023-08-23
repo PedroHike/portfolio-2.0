@@ -19,7 +19,7 @@
 }
 
 .sobre-mim img{
-    width: 30%;
+    width: 35%;
 }
 
 .sobre-mim .informacoes-sobre-mim{
@@ -28,7 +28,7 @@
 }
 
 .sobre-mim .informacoes-sobre-mim p{
-    font-size: var(--fonte-extra-grande);
+    font-size: var(--fonte-grande);
     margin-bottom: 1rem;
     font-weight: 500;
     text-shadow: 0 1px 2px var(--cor-extra-escura);
@@ -53,7 +53,7 @@
     color: var(--cor-extra-escura);
 }
 
-@media(max-width:1024px){
+@media(max-width:1500px){
     .sobre-mim img{
         width: 50%;
     }
@@ -74,7 +74,7 @@
     }    
     
     .sobre-mim .container img{
-        width: 70%;
+        width: 80%;
         margin-bottom: 30px;
     }
 
@@ -86,5 +86,10 @@
         display: flex;
         justify-content: center;
     }
+}
 
+@media(max-width:425px){
+    .sobre-mim .informacoes-sobre-mim p{
+    }
+    
 }

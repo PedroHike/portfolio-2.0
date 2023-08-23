@@ -46,25 +46,43 @@
     background: linear-gradient(45deg, rgba(15,76,117,1) 43%, rgba(255,255,255,1) 100%);
 }
 
-@media(max-width:1024px){
+@media(max-width:1150px){
+    .main .home{
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .main .home .container{
+        text-align: center;
+    }
+
+    .main .home h1{
+        font-size: 5.5rem;
+    }
+
+    .main .home img{
+        width: 50%;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:768px){
+    .main .home h1{
+        font-size: var(--fonte-gigante);
+    }
+}
+
+@media(max-width:475px){
     .main .home h1{
         font-size: var(--fonte-grande);
     }
 
-    .home .container h2{
+    .main .home h2{
         font-size: var(--fonte-normal);
     }
 
-}
-
-@media(max-width:425px){
-    .main .home{
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    .main .home img{
-        width: 60%;
-        margin-top: 20px;
+    .home .container .redes-sociais a i{
+        font-size: var(--fonte-extra-grande);
+        margin: 20px 10px;
     }
 }
