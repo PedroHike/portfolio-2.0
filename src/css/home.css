@@ -72,7 +72,7 @@
     }
 }
 
-@media(max-width:475px){
+@media(max-width:426px){
     .main .home h1{
         font-size: var(--fonte-grande);
     }

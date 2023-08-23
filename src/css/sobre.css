@@ -88,8 +88,8 @@
     }
 }
 
-@media(max-width:425px){
+@media(max-width:426px){
     .sobre-mim .informacoes-sobre-mim p{
+        font-size: var(--fonte-normal);
     }
-    
 }

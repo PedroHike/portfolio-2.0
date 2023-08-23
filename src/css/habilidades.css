@@ -36,26 +36,30 @@
     font-size: var(--fonte-normal);
 }
 
-@media(max-width:425px){
+@media(max-width:426px){
     .habilidades{
         padding: 20px;
     }
 
+    .habilidades .container-habilidades{
+        gap: 15px 10px;
+    }
+
     .habilidades .container-habilidades .informacoes{
         width: 140px;
-        margin: 5px;
+        margin: 0;
     }
 
     .habilidades .container-habilidades .informacoes i{
-        font-size: 6rem;
+        font-size: var(--fonte-gigante);
     }
 
     .habilidades .container-habilidades .informacoes h3{
-        font-size: var(--fonte-extra-grande);
+        font-size: var(--fonte-grande);
     }
 
     .habilidades .container-habilidades .informacoes p{
-        font-size: var(--fonte-grande);
+        font-size: 1.2rem;
     }
 
 }
