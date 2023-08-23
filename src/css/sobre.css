@@ -53,21 +53,33 @@
     color: var(--cor-extra-escura);
 }
 
-@media(max-width:425px){
+@media(max-width:1024px){
+    .sobre-mim img{
+        width: 50%;
+    }
+
+    .sobre-mim .informacoes-sobre-mim p{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:1024px){
     .sobre-mim{
         padding: 20px;
     }
 
     .sobre-mim .container{
-        padding: 0;
         flex-direction: column;
-        max-width: 300px;
         margin: 0 auto;
+    }    
+    
+    .sobre-mim .container img{
+        width: 70%;
+        margin-bottom: 30px;
     }
 
-    .sobre-mim .container img{
-        width: 80%;
-        margin-bottom: 20px;
+    .sobre-mim .informacoes-sobre-mim p{
+        font-size: var(--fonte-grande);
     }
 
     .sobre-mim .informacoes-sobre-mim .botao{
